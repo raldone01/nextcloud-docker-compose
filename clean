@@ -1,0 +1,3 @@
+#!/bin/bash
+docker-compose stop nextcloud nextcloud-db
+rm -rf /srv/docker/nextcloud /srv/docker/nextcloud-db
